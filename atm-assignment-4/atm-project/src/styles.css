@@ -6,3 +6,7 @@ body {
     color: rgb(245,255,250);
     font-family: 'Merriweather Sans', sans-serif;
 }
+
+li {
+    list-style: none;
+}

@@ -5,7 +5,7 @@ export interface AtmInterface {
     message         : string,
     accountNumber   : string,
     currentBalance  : number,
-    amount          : number
+    transactions    : TransactionList;
 
 }
 
