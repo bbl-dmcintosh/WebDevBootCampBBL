@@ -1,0 +1,17 @@
+{
+  "name": "atm-assignment-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/angular": "^1.6.43",
+    "rxjs": "^6.0.0-beta.4",
+    "typescript-tools": "^0.3.1"
+  }
+}

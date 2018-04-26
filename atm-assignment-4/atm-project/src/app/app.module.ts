@@ -1,16 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { AtmComponent } from './atm/atm.component';
 import { AtmserviceService } from './services/atmservice.service';
-import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AtmComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,

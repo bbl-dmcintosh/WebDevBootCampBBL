@@ -22,24 +22,28 @@ class App {
             });
         });
         atmBalance.get('/atm/:acc/', (req, res) => {
+            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber: req.params.acc,
                 currentBalance: this.atm.getCurrentBalance(req.params.acc)
             });
         });
         atmTransactions.get('/atm/transactions/:acc/', (req, res) => {
+            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber: req.params.acc,
                 transactions: this.atm.getLastOperations(req.params.acc).transactions
             });
         });
         atmDeposit.get('/atm/deposit/:acc/amount/:amount', (req, res) => {
+            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber: req.params.acc,
                 currentBalance: this.atm.deposit(req.params.acc, parseFloat(req.params.amount))
             });
         });
         atmWithdraw.get('/atm/withdraw/:acc/amount/:amount', (req, res) => {
+            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber: req.params.acc,
                 currentBalance: this.atm.withdraw(req.params.acc, parseFloat(req.params.amount))
