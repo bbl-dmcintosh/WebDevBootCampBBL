@@ -9,6 +9,9 @@ export class AtmserviceService {
 
   constructor(public http: HttpClient) { }
 
+  isAlive(){
+    return this.http.get<AtmInterface>(this.URLEP);
+  }
   getCurrentBalance(acct: string){
     return this.http.get<AtmInterface>(this.URLEP + acct);
   }

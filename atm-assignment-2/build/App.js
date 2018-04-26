@@ -16,6 +16,7 @@ class App {
         const atmTransactions = express.Router();
         //routes
         atmLive.get("/atm", (req, res) => {
+            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 status: 0,
                 message: 'OK'

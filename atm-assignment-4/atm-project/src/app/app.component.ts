@@ -3,6 +3,7 @@ import {AtmInterface}  from './interfaces/atm.interface';
 import { AtmserviceService } from './services/atmservice.service';
 import { Observable } from 'rxjs';
 import { map, filter, switchMap } from 'rxjs/operators';
+import { checkAndUpdatePureExpressionDynamic } from '@angular/core/src/view/pure_expression';
 
 @Component({
   selector: 'app-root',
@@ -16,10 +17,16 @@ export class AppComponent {
   balance = 0;
   withdrawBalance = 0;
   depositBalance = 0;
+  status = '';
+  message = '';
   atmInter : AtmInterface;
 
   constructor(public atmService : AtmserviceService){
 
+    atmService.isAlive().subscribe(value => {
+      this.status = value.status;
+      this.message = value.message;
+    })
     atmService.getCurrentBalance("23232-1").subscribe(value => { 
       this.account = value.accountNumber;  
       this.balance = value.currentBalance;
