@@ -2,9 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const express = require("express");
 const atm_1 = require("./atm/atm");
+const cors = require("cors");
 class App {
     constructor() {
         this.webservice = express();
+        this.webservice.use(cors());
         this.atm = new atm_1.Atm();
         this.mountAtmRoutes();
     }
@@ -16,35 +18,30 @@ class App {
         const atmTransactions = express.Router();
         //routes
         atmLive.get("/atm", (req, res) => {
-            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 status: 0,
                 message: 'OK'
             });
         });
         atmBalance.get('/atm/:acc/', (req, res) => {
-            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber: req.params.acc,
                 currentBalance: this.atm.getCurrentBalance(req.params.acc)
             });
         });
         atmTransactions.get('/atm/transactions/:acc/', (req, res) => {
-            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber: req.params.acc,
                 transactions: this.atm.getLastOperations(req.params.acc).transactions
             });
         });
         atmDeposit.get('/atm/deposit/:acc/amount/:amount', (req, res) => {
-            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber: req.params.acc,
                 currentBalance: this.atm.deposit(req.params.acc, parseFloat(req.params.amount))
             });
         });
         atmWithdraw.get('/atm/withdraw/:acc/amount/:amount', (req, res) => {
-            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber: req.params.acc,
                 currentBalance: this.atm.withdraw(req.params.acc, parseFloat(req.params.amount))

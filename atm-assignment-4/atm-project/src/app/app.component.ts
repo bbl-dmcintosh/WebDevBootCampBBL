@@ -30,25 +30,25 @@ export class AppComponent {
       this.status = value.status;
       this.message = value.message;
     })
-    atmService.getCurrentBalance("9999-1").subscribe(value => { 
+    atmService.getCurrentBalance("23232-1").subscribe(value => { 
       this.account = value.accountNumber;  
       this.balance = value.currentBalance;
         
     });
 
-    atmService.withdraw("9999-1", 50.00).subscribe(value => { 
+    atmService.withdraw("23232-1", 50.00).subscribe(value => { 
       this.account = value.accountNumber;  
       this.withdrawBalance = value.currentBalance;
         
     });
 
-    atmService.deposit("9999-1", 20.00).subscribe(value => { 
+    atmService.deposit("23232-1", 20.00).subscribe(value => { 
       this.account = value.accountNumber;  
       this.depositBalance = value.currentBalance;
         
     });
 
-    atmService.getLastOperations("9999-1").subscribe(value => {
+    atmService.getLastOperations("23232-1").subscribe(value => {
       this.account = value.accountNumber;
       this.transactions = value.transactions;
     });

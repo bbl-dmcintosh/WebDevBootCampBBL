@@ -1,5 +1,6 @@
 import * as express from 'express';
 import {Atm} from './atm/atm';
+import * as cors from 'cors';
 
 export class App {
     public webservice : any;
@@ -7,6 +8,7 @@ export class App {
 
     constructor(){
         this.webservice = express();
+        this.webservice.use(cors());
         this.atm = new Atm();
         this.mountAtmRoutes();
     }
@@ -20,7 +22,6 @@ export class App {
 
         //routes
         atmLive.get("/atm", (req, res) => {
-            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 status: 0,
                 message: 'OK'
@@ -28,7 +29,6 @@ export class App {
         });
 
         atmBalance.get('/atm/:acc/', (req, res) => {
-            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber : req.params.acc,
                 currentBalance : this.atm.getCurrentBalance(req.params.acc)
@@ -36,7 +36,6 @@ export class App {
         });
 
         atmTransactions.get('/atm/transactions/:acc/', (req, res) => {
-            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber : req.params.acc,
                 transactions : this.atm.getLastOperations(req.params.acc).transactions
@@ -44,7 +43,6 @@ export class App {
         });
 
         atmDeposit.get('/atm/deposit/:acc/amount/:amount', (req, res) => {
-            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber : req.params.acc,
                 currentBalance : this.atm.deposit(req.params.acc, parseFloat(req.params.amount))
@@ -52,7 +50,6 @@ export class App {
         });
 
         atmWithdraw.get('/atm/withdraw/:acc/amount/:amount', (req, res) => {
-            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 accountNumber : req.params.acc,
                 currentBalance : this.atm.withdraw(req.params.acc, parseFloat(req.params.amount))
