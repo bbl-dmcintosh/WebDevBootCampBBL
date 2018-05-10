@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AtmServiceService } from '../../services/atm-service.service';
 import { AtmResponseOperationBalance } from '../../models/atm.interface';
+import { FormGroup, FormControl,Validators} from '@angular/forms';
+
 
 @Component({
   selector: 'app-mainop',
@@ -10,6 +12,9 @@ import { AtmResponseOperationBalance } from '../../models/atm.interface';
 })
 export class MainopComponent implements OnInit {
 
+  public withdrawForm: FormGroup;
+  public depositForm: FormGroup;
+
   public currentCard : AtmResponseOperationBalance = <AtmResponseOperationBalance>{};
 
  
@@ -17,6 +22,15 @@ export class MainopComponent implements OnInit {
                public atmService : AtmServiceService) { }
 
   ngOnInit() {
+    this.withdrawForm = new FormGroup({
+      withdrawAmount : new FormControl('',Validators.required)
+  }
+  );
+
+  this.depositForm = new FormGroup({
+    depositAmount : new FormControl('',Validators.required)
+}
+);
 
     this.atmService.getCurrentBalance(this.atmService.getAccountNumber()).
          subscribe (data => {

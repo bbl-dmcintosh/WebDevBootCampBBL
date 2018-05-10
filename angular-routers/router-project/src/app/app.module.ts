@@ -5,13 +5,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { SayLightComponent } from './say-light/say-light.component';
 import { SayDynamicBoldComponent } from './say-dynamic-bold/say-dynamic-bold.component';
-import { RouterModule, Routes } from '@angular/router';
-
-
-const appRoutes : Routes = [
-{ path: 'light/:theme', component: SayLightComponent},
-{ path: 'dark/:theme', component: SayDynamicBoldComponent}
-];
+import { AppRoutingModule } from './routing.module';
+import { AuthServiceService } from './auth-service.service';
 
 @NgModule({
   declarations: [
@@ -21,11 +16,9 @@ const appRoutes : Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(
-      appRoutes
-    )
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [AuthServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

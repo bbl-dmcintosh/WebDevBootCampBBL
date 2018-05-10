@@ -14,6 +14,39 @@
 </div>
 
 <div class="container">
+
+    <form [formGroup]="withdrawForm" novalidate (ngSubmit)="goToMakeAWithdrawl()">
+
+            <div class="form-group">
+
+                    <label class="center-block">Withdraw Amount
+                      <input class="form-control" formControlName="withdrawAmount">
+                    </label> 
+                     
+                </div>
+
+        <button type="submit">Withdraw</button>
+
+    </form>
+
+    <form [formGroup]="depositForm" novalidate (ngSubmit)="goToMakeADeposit()">
+
+            <div class="form-group">
+
+                    <label class="center-block">Deposit Amount
+                      <input class="form-control" formControlName="depositAmount">
+                    </label> 
+                     
+                </div>
+
+        <button type="submit">Deposit</button>
+
+    </form>
+    
+</div>
+
+    <!--
+
   <div class="row">  
       <div class="col-sm-5">
            <button type="button"  (click)="goToMakeAWithdrawl()" class="btn btn-primary btn-block">Withdraw</button>
@@ -26,3 +59,5 @@
        </div>
   </div>
 </div>
+
+-->

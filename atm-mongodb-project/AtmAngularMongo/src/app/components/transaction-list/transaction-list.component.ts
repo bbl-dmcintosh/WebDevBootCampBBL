@@ -15,11 +15,6 @@ export class TransactionListComponent implements OnInit {
   public router : Router ) { }
 
   ngOnInit() {
-
-    if (!this.atmService.accountValid) {
-       this.router.navigate(['/']);
-
-    }
     
     this.getLastOperations(this.atmService.getAccountNumber());
 
