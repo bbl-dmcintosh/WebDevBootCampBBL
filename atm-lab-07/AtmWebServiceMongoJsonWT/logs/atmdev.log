@@ -1,0 +1,107 @@
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"14:51:36"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"14:51:36"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"14:51:46"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"14:51:46"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"14:51:46"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"14:51:46"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  100000","timestamp":"14:51:46"}
+{"level":"debug","message":"Queried Balance for Acct #  100000 Balance 1600","timestamp":"14:51:46"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:17:05"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:17:05"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:17:12"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:17:12"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:17:16"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:17:16"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:17:26"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:17:26"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:17:50"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:17:50"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:17:55"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:17:55"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:17:58"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:17:58"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:18:02"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:18:02"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:18:03"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:18:03"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:18:06"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:18:06"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:18:06"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:18:06"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:18:08"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:18:08"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:18:58"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:18:58"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:18:59"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:18:59"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:19:00"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:19:00"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:19:00"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:19:00"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:19:00"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:19:00"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:19:01"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:19:01"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:19:19"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:19:19"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:20:49"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:20:49"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:21:05"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:21:05"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:21:08"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:21:08"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:21:12"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:21:12"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:06"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:06"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:06"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:06"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:12"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:12"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:13"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:13"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:13"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:13"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:13"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:13"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:13"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:13"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:13"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:13"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:14"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:14"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:14"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:14"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:14"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:14"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:30"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:30"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:59"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:59"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:22:59"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:22:59"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  100000","timestamp":"17:22:59"}
+{"level":"debug","message":"Queried Balance for Acct #  100000 Balance 1600","timestamp":"17:22:59"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:27:25"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:27:25"}
+{"level":"debug","message":"Transaction listing  requested for account #  100000","timestamp":"17:27:25"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"19:31:16"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"19:31:16"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"19:32:35"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"19:32:35"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"19:34:34"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"19:34:34"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"19:47:30"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"19:47:30"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"19:52:44"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"19:52:44"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"19:54:35"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"19:54:35"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"19:54:59"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"19:54:59"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"19:55:11"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"19:55:11"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"19:56:49"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"19:56:49"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"19:58:29"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"19:58:29"}
